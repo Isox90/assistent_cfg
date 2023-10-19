@@ -1,3 +1,5 @@
+//Adding support for Chrome DevTools Protocol in Selenium 3.x
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
