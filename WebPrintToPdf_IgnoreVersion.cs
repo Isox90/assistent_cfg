@@ -26,8 +26,7 @@ namespace ChromeDriverUnversioner
             //tested versions 115-133
             //from 119 everything works
             //32 bits doesnt work in my env
-            Console.WriteLine(Environment.GetEnvironmentVariable("USERPROFILE"));
-
+            
             List<string> folderPaths = GetExeFilesRecursive($@"{Environment.GetEnvironmentVariable("USERPROFILE")}\Downloads\chromedrivers"); //example path => chromedrivers/chromedriver_131.0.6778.85_64/chromedriver-win64/chromedriver.exe
 
             foreach (string path in folderPaths)
